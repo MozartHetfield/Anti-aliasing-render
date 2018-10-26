@@ -9,7 +9,7 @@ Anul universitar: 2018-2019
 
 	Partea I: Antialiasing
 
-		Prima parte are la baza structura image, ce contine o variabila de tip int (color), reprezentand
+Prima parte are la baza structura image, ce contine o variabila de tip int (color), reprezentand
 tipul de imagine, respectiv doua matrice de unsigned chars, in functie de variabila mentionata precedent.
 		Se incearca folosirea cat mai posibila a unui buffer pentru operatiile de scriere/citire, intrucat
 grabesc timpul de executie al programului, evitand un apel numeros de interventii asupra fisierelor.
@@ -26,12 +26,12 @@ se face cu ajutorul lui thread_id, impartind in bucati egale liniile matricei. L
 din parametrii functiei cu cea globala pe care lucram pentru a fi trimisa mai departe la writeData, unde va fi
 transpusa in fisier. 
 
-	Observatie:	in functia readInput, a trebuit sa fie citit un byte nefolositor pentru ca imaginea sa nu aiba
+Observatie:	in functia readInput, a trebuit sa fie citit un byte nefolositor pentru ca imaginea sa nu aiba
 				pierderi de date. In absenta acestuia (variabila useless), imaginii ii lipsea un caracter de la final.
 
 	Partea a II-a: micro render
 
-		Partea a II-a presupune aceeasi impartire a numarului de linii pe thread-uri pentru a paraleliza executia.
+Partea a II-a presupune aceeasi impartire a numarului de linii pe thread-uri pentru a paraleliza executia.
 De asemenea, se foloseste o matrice declarata global pe care lucram, urmand ca la final sa fie atribuita out-ului img.
 		Matricea se completeaza direct, pornind de la i maxim, descrescator, datorita inversarii pozitiilor normale de
 inceput. Asadar, i-ul va merge din X = numarul de linii / numarul de thread-uri, descrescator, de la resolution - 1 
