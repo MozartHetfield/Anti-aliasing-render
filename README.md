@@ -1,8 +1,8 @@
-Autor: Soare Ion-Alexandru
-Universitatea si facultatea: UPB, ACS, CTI
-Grupa si ceria: 333 CC
-Profesor coordonator: Cristian Chilipirea
-Anul universitar: 2018-2019
+	Autor: Soare Ion-Alexandru
+	Universitatea si facultatea: UPB, ACS, CTI
+	Grupa si ceria: 333 CC
+	Profesor coordonator: Cristian Chilipirea
+	Anul universitar: 2018-2019
 
 TEMA 1: Antialiasing si micro render
 
